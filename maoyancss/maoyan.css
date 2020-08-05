@@ -1,0 +1,165 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    font-size: 14px;
+}
+.main .nav{
+    background-color: #47464a;
+    text-align: center;
+    min-width: 1000px;
+    height: 60px;
+    line-height: 60px;
+}
+.main .nav a{
+    font-size: 16px;
+    color: #999;
+    padding: 0 40px;
+}
+.main .nav a:hover{
+    color: #fff;
+}
+.main .nav a.selected{
+    color: #ef4238;
+}
+.main .container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.main .container .choose{
+    border: 1px solid #e5e5e5;
+    margin: 30px 0;
+    padding: 5px 20px;
+}
+.main .container .choose .choose-item{
+    padding: 10px 0;
+    border-top: 1px dotted #e5e5e5;
+}
+.main .container .choose .choose-item.no-line{
+    border: none;
+}
+.main .container .choose .choose-item .left{
+    float: left;
+    padding: 10px 8px;
+    color: #999;
+}
+.main .container .choose .choose-item .right{
+    float: left;
+    width: 1000px;
+}
+.main .container .choose .choose-item .right ul li a.li-selected{
+    padding: 5px;
+    background-color: #ef4238;
+    border-radius: 30px;
+    color: #fff;
+}
+.main .container .choose .choose-item .right li{
+    float: left;
+    padding: 10px 8px;
+}
+.main .container .choose .choose-item .right li a{
+    color: #333;
+}
+.main .container .choose .choose-item .right li a:hover{
+    color: #ef4238;
+}
+.main .container .movies .movies-item{
+    float: left;
+    width: 160px;
+    height: 320px;
+    margin-right: 28px;
+}
+.main .container .movies .movies-item:nth-child(6n){
+    margin-right: 0;
+}
+.main .container .movies .movies-item img{
+    width: 160px;
+    height: 224px;
+}
+.main .container .movies .movies-item .name{ 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    padding: 0 3px;
+    font-size: 16px;
+    margin: 15px 0;
+}
+.main .container .movies .movies-item .name a{
+    color: #333;
+}
+.main .container .movies .movies-item .score{
+    color: #ffb400;
+    text-align: center;
+    font-size: 15px;
+    margin: 15px 0;
+    font-style: italic;
+}
+.main .container .movies .movies-item .score::first-letter{
+    font-size: 18px;
+}
+.main .container .pager{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.main .container .pager a{
+    padding: 8px 14px;
+    text-align: center;
+    line-height: 32px;
+    border: 1px solid #d8d8d8 ;
+    margin: 0 4px;
+    color: #333;
+}
+.main .container .pager a:hover{
+    border: 1px solid #ef4238;
+}
+.main .container .pager .pager-last{
+    width: 74px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0 4px;
+}
+.main .container .pager .pager-next{
+    width: 74px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0 4px;
+}
+.main .container .pager .pager-selected{
+    background-color: #ef4238;
+    color: #fff;
+}
+footer .tail{
+    padding: 70px 0;
+    background-color: #262426;
+}
+footer .tail p{
+    text-align: center;
+    color: #ccc;
+}
+footer .tail p span{
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    margin: 0 7px;
+    height: 12px;
+    position: relative;
+    top: 1px;
+}
+footer .tail p{
+    margin-bottom: 10px;
+}
+footer .tail p .about{
+    padding: 0 8px;
+    color: #ef4238;
+}
+footer .tail p a{
+    color: #ccc;
+}
+footer .tail p a:hover{
+    text-decoration:underline
+}
+
